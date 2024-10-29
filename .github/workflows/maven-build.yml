@@ -29,4 +29,6 @@ jobs:
                  cd /home/ubuntu/POC &&
                  git pull origin main &&
                  mvn clean package -DskipTests &&
+                 chmod +x executar.sh &&  # Adiciona permissão de execução
                  ./executar.sh "
+
